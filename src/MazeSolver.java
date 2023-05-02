@@ -3,7 +3,7 @@ public class MazeSolver {
 	
 	public static void main(String[] args) {
 		int[][] maze = 
-			{{1,1,0,1,1,1,3},
+		       {{1,1,0,1,1,1,3},
 			{2,0,0,0,1,1,0},
 			{1,1,1,0,1,1,0},
 			{3,0,1,0,0,0,0},
