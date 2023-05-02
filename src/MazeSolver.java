@@ -23,7 +23,10 @@ public class MazeSolver {
 			System.out.println("Cupcake found at (" + row + ", " + col + ")");
 		}
 		else {
-			//TODO: Recursively check other directions
+			int numRows = maze.length;
+			int numCols = maze[0].length;
+			
+			//TODO: Recursively check up, down, left, right
 			
 		}
 		
