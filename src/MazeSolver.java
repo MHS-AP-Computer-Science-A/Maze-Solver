@@ -22,7 +22,7 @@ public class MazeSolver {
 		
 	}
 	
-	public static void solve(int[][] maze, int row, int col) {
+	public static void solve(int[][] maze, int row, int col) { //TODO: Add visited array as method paramter.
 		//TODO: Set visited[row][col] to true
 		
 		if(maze[row][col] == 3) {
