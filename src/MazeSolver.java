@@ -11,19 +11,19 @@ public class MazeSolver {
 				{3,1,1,0,1,0,1},
 				{0,0,0,0,0,0,1}};
 		
-		//TODO: Created a boolean array named 'visited' that has the same
-		//      number of rows as cols as 'maze'. The values default to 'false'.
+		// Create a boolean array named 'visited' that has the same
+		// number of rows as cols as 'maze'. The values default to 'false'.
 	
 		
-		//TODO: find the start of the maze
+		// Find the start of the maze
 		
 		
-		//TODO: call the solve method
+		// Call the solve method
 		
 	}
 	
-	public static void solve(int[][] maze, int row, int col) { //TODO: Add visited array as method paramter.
-		//TODO: Set visited[row][col] to true
+	public static void solve(int[][] maze, int row, int col) { // Add visited array as method paramter.
+		// Set visited[row][col] to true
 		
 		if(maze[row][col] == 3) {
 			//Base case, found cupcake
@@ -33,7 +33,7 @@ public class MazeSolver {
 			int numRows = maze.length;
 			int numCols = maze[0].length;
 			
-			//TODO: Recursively check up, down, left, right
+			// Recursively check up, down, left, right
 			
 		}
 		
